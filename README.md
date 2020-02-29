@@ -6,9 +6,9 @@
 
 <img src="./screenshot/desktop2.png" width="800">
 
-<img src="./screenshot/mobile1.png" width="800">
+<img src="./screenshot/rwd1.png" width="800">
 
-<img src="./screenshot/mobile2.png" width="800">
+<img src="./screenshot/rwd2.png" width="800">
 
 Features:
 
