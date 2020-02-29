@@ -2,13 +2,13 @@
 
 17 media
 
-<img src="./screenshot/desktop1.png" width="600">
+<img src="./screenshot/desktop1.png" width="800">
 
-<img src="./screenshot/desktop2.png" width="600">
+<img src="./screenshot/desktop2.png" width="800">
 
-<img src="./screenshot/mobile1.png" width="300">
+<img src="./screenshot/mobile1.png" width="800">
 
-<img src="./screenshot/mobile2.png" width="300">
+<img src="./screenshot/mobile2.png" width="800">
 
 Features:
 
