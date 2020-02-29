@@ -16,11 +16,13 @@ const Card = ({ name, price, notes, id }) => {
   return (
     <>
       <ItemWrapper>
-        <Item bold width='40%'>
+        <Item bold width='40%' name='name'>
           {name}
         </Item>
-        <Item width='10%'>{price}</Item>
-        <Item width='30%' wrap='true'>
+        <Item width='10%' name='price'>
+          {price}
+        </Item>
+        <Item width='30%' wrap='true' name='notes'>
           {notes}
         </Item>
         <ButtonWrapper>
@@ -60,6 +62,7 @@ const Item = styled.span`
       white-space: pre-wrap;
     `}
 `;
+Item.displayName = 'Item';
 
 const ButtonWrapper = styled.div`
   width: 20%;
@@ -77,6 +80,8 @@ const EditButton = styled(NavLink)`
     opacity: 1;
   }
 `;
+EditButton.displayName = 'EditButton';
+
 const CancelButton = styled.span`
   width: 1.75rem;
   height: 1.75rem;
@@ -87,5 +92,6 @@ const CancelButton = styled.span`
     opacity: 1;
   }
 `;
+CancelButton.displayName = 'CancelButton';
 
 export default Card;

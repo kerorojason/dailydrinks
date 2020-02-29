@@ -1,7 +1,12 @@
 import React from 'react';
-import { render } from '@testing-library/react';
-import { mount } from 'enzyme';
-// import { findByTestAttr } from '../test/testutils';
+import { shallow } from 'enzyme';
 import App from './App';
 
-test('', () => {});
+const setup = () => {
+  return shallow(<App />);
+};
+test('App renders without error', () => {
+  const wrapper = setup();
+  const component = wrapper.find('AppContainer');
+  expect(component.length).toBe(1);
+});

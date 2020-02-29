@@ -1,6 +1,6 @@
 # Daily Drinks
 
-17 media
+17 Media pretest
 
 <img src="./screenshot/desktop1.png" width="800">
 

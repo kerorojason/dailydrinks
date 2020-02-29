@@ -56,7 +56,6 @@ const Modal = props => {
               value={state.price}
               placeholder='35'
               onChange={e => dispatch({ type: 'setPrice', payload: e.target.value })}
-              required
               name='price'
             />
           </Label>

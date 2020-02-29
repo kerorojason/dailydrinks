@@ -35,5 +35,6 @@ const AppContainer = styled.section`
     padding: 0 20%;
   }
 `;
+AppContainer.displayName = 'AppContainer';
 
 export default App;
