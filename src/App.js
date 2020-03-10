@@ -15,7 +15,7 @@ function App() {
         <AppContainer>
           <Header />
           <Order />
-          <Route exact path='/order/:id' component={Modal} />
+          <Route exact path='/order' component={Modal} />
         </AppContainer>
       </ordersContext.OrdersProvider>
     </HashRouter>

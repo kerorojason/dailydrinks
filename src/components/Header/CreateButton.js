@@ -7,7 +7,7 @@ const CreateButton = () => {
   const [newId, setNewId] = React.useState(uuidv4());
   const handleClick = () => setNewId(uuidv4());
   return (
-    <Button to={`/order/${newId}`} onClick={handleClick}>
+    <Button to={{ pathname: '/order', id: newId }} onClick={handleClick}>
       New Order
     </Button>
   );

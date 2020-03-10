@@ -26,7 +26,7 @@ const Card = ({ name, price, notes, id }) => {
           {notes}
         </Item>
         <ButtonWrapper>
-          <EditButton url={editImage} to={`/order/${id}`} />
+          <EditButton url={editImage} to={{ pathname: '/order', id: id }} />
           <CancelButton url={cancelImage} onClick={() => handleCancel(id)} />
         </ButtonWrapper>
       </ItemWrapper>

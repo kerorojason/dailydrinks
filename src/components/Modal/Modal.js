@@ -18,10 +18,10 @@ function reducer(state, action) {
 }
 
 const Modal = props => {
-  const id = props.match.params.id;
+  const id = props.location.id;
   const [orders, setOrders] = ordersContext.useOrders();
 
-  const currentOrder = orders.find(order => order.id === props.match.params.id);
+  const currentOrder = orders.find(order => order.id === id);
   const initialState = currentOrder
     ? { name: currentOrder.name, price: currentOrder.price, notes: currentOrder.notes }
     : { name: '', price: '', notes: '' };
