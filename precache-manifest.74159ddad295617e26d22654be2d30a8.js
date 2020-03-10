@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4eef93bf2793be52e266e2f992b7b9c6",
+    "revision": "86ff4b095be9521552a5ccdc69117137",
     "url": "/dailydrinks/index.html"
   },
   {
-    "revision": "5403c70bc200076172e5",
+    "revision": "3820ef9c9fafe798046f",
     "url": "/dailydrinks/static/css/main.1ece31f1.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dailydrinks/static/js/2.21f4208a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5403c70bc200076172e5",
-    "url": "/dailydrinks/static/js/main.1da3240e.chunk.js"
+    "revision": "3820ef9c9fafe798046f",
+    "url": "/dailydrinks/static/js/main.33587fb6.chunk.js"
   },
   {
     "revision": "6f8d7c9e3fab3478e2bc",
