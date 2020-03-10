@@ -1,7 +1,5 @@
 # Daily Drinks
 
-17 Media pretest
-
 Demo Link:
 
 - GitHub Page: https://kerorojason.github.io/dailydrinks/#/
